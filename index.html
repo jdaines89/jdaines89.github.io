@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scrumline has moved</title><meta name="robots" content="noindex">
+<script>
+// Scrumline moved to https://scrumline.co.za. Every old link (invites, home-screen installs) lands on the same page there.
+var p = location.pathname;
+if (p.indexOf("/scrumline") === 0) p = p.slice(10) || "/";
+else p = "/";
+location.replace("https://scrumline.co.za" + p + (location.search ? location.search + "&" : "?") + "from=gh" + location.hash);
+</script>
+</head><body style="font-family:system-ui;padding:24px">Scrumline has moved to <a href="https://scrumline.co.za/?from=gh">scrumline.co.za</a>.</body></html>
